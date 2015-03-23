@@ -50,3 +50,61 @@ body {
     height: 400px;
     background-color: #ccc;
 }
+
+/***********
+RYAN'S CSS
+************/
+
+/*
+GENERAL
+*/
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+img {
+  max-width: 100%;
+}
+
+/*
+PAGE: MENU OFFERINGS
+*/
+
+#menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#menu li {
+  float: left;
+  width: 45%;
+  margin: 2.5%
+}
+
+header {
+  clear: both;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 30%;
+  background-color: orange;
+  display: inline-block;
+}
+
+nav {
+  float: right;
+  width: 45%;
+  background-color: green;
+}
+
+footer {
+  clear: both;
+}
+
+.contact-info {
+  float: right;
+  width: 30%;
+}
