@@ -1,0 +1,52 @@
+h1 {
+  /*float:left;*/
+  font-size: 3em;
+  color: #872657;
+  /*raspberry*/
+}
+
+h1 {
+  border-style: dotted;
+  /*border-width: 5px;*/
+   width: 45%;
+  /*overflow: auto;*/
+
+}
+
+#place {
+  width: 50%;
+}
+body {
+
+  background: linear-gradient(#fff, tranparent 50%),
+  linear-gradient(0 deg, #fff, transparent),
+  background-image: url("../images/BG.jpg");
+  background-size: cover;
+
+
+}
+.menu {
+
+}
+
+
+
+
+.page-links ul li {
+  display: inline-block;
+  border-style: dotted;
+  width: 5%;
+  float: right;
+  margin: 10px;
+
+}
+
+
+
+
+
+#map-canvas {
+    width: 500px;
+    height: 400px;
+    background-color: #ccc;
+}
