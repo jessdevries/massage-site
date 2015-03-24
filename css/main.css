@@ -18,8 +18,8 @@ h1 {
 }
 body {
 
-  background: linear-gradient(#fff, tranparent 50%),
-  linear-gradient(0 deg, #fff, transparent),
+  /*background: linear-gradient(#fff, tranparent 50%),
+  linear-gradient(0 deg, #fff, transparent),*/
   background-image: url("../images/BG.jpg");
   background-size: cover;
 
