@@ -10,8 +10,8 @@ header {
   margin: 0 0 30px 0;
   padding: 5px 0 0 0;
   width: 30%;
-  /*background-color: orange;*/
   display: inline-block;
+  /*background-color: orange;*/
 }
 
 h1 {
@@ -45,23 +45,47 @@ body
 ***************/
 body {
 
-  /*background: linear-gradient(#fff, tranparent 50%),
-  linear-gradient(0 deg, #fff, transparent),*/
+  /*background: linear-gradient(red, tranparent 50%);*/
   background-image: url("../images/BG.jpg");
   background-size: cover;
-
-
+  border-style: solid;
+  border-color: #852355;
+  border-width: 30px;
+  border-radius: 3%;
+  margin-bottom: 15px;
+  box-shadow: 0px 0   5px  3px  #ff00ff,
+        inset 0px 0   5px  3px  #ff00ff,
+              7px 0px 50px 100px black,
+        inset 3px 3px 10px 7px black;
 }
+
+
+
+
+
 nav  li{
   list-style: none;
-  float: center;
+  /*display: inline-block;*/
+  /*float: center;*/
 
 
 }
 
 .center {
+  width: 70%;
   float: center;
+  margin: 0 0 0 15%;
+}
 
+
+.map {
+  float: center;
+  margin: 0 0 0 20%
+}
+
+
+.left, .right {
+  width: 40.5%;
 }
 
 .left {
@@ -73,19 +97,22 @@ nav  li{
 }
 
 
-
-
 .page-links ul li {
   width: 10%;
-  float: right;
-  padding: left;
-  padding: 0 10px;
-  margin: 5px;
+  /*float: right;*/
+  /*padding: left;*/
+  /*padding: 0 10px;*/
+  margin: 20px;
+  margin-left: 100px;
+  text-align: center;
 }
 
-
-
-
+/*.blank {
+  height: 100px;
+  width: 45%;
+  margin: 2.5%;
+  background-color: lightsteelblue;
+}*/
 
 #map-canvas {
     width: 500px;
@@ -109,17 +136,22 @@ GENERAL
 
 img {
   max-width: 100%;
+
 }
 
 
+
+
   /*image border color and shadow*/
-.center, .right, .left{
+.boundry, .top{
   border-style: solid;
   border-color: #852355;
-  border-width: 5px;
+  border-width: 6px;
   border-radius: 10%;
   margin-bottom: 15px;
   box-shadow: 7px 5px 20px 3px black;
+
+
 }
 
 /*
@@ -140,40 +172,54 @@ PAGE: MENU OFFERINGS
 }
 
 
-
-/*.group:after {
-  content: "";
-  display: table;
-  clear: both;
-}*/
-
 nav {
-  float: right;
-  width: 60%;
+  /*float: right;*/
+  clear: both;
+  width: 100%;
   margin-top: 10px;
-  /*background-color: green;*/
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: green;
 }
 
 div li p {
-  margin-top: 2px;
+  margin-top: 1px;
 }
 
 footer {
   clear: both;
-  width: 100%;
-  background-color: green;
 }
 
-.contact-info {
+iframe {
   float: right;
-  width: 50%;
-  background-color: orange;
-  display: inline-block;
-  padding-right: 30px;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-width: 3px black;
+  border-radius: 10%;
+  box-shadow: inset 2px 3px 10px 5px black;
 }
 
-.social-media {
+/*.social-media {
   float: left;
   width: 35%;
   background-color: red;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-width: 3px black;
+  border-radius: 10%;
+  box-shadow: inset 2px 3px 10px 5px black;
+}*/
+
+footer li {
+  list-style: none;
+  width: 100%;
+  text-align: right;
 }
+
+/*.contact-info {
+  float: right;
+  width: 30%;
+}*/
