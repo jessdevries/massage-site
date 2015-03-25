@@ -1,4 +1,6 @@
 
+
+
 a {
   text-decoration: none;
 
@@ -198,3 +200,55 @@ footer li {
   float: right;
   width: 30%;
 }*/
+
+/*JESSICA'S CSS*/
+@media screen and (max-width: 300px) {
+    body {
+        background-color: lightblue;
+    }
+
+    p {
+      font-family: arial;
+    }
+
+    h1 {
+      font-size: 3em;
+      color: #872657;
+    }
+
+    h2{
+      font-size: 1em;
+      float: center;
+    }
+
+    header {
+      display: inline-block;
+      width: 98%;
+      text-align: center;
+      margin: 0 0 0 0;
+      padding: 0 0 0 0;
+    }
+
+    header nav ul{
+      text-align: center;
+      float: center;
+      width: 98%;
+
+
+    }
+
+    main nav {
+      float: center;
+      width: 98%;
+      text-align: center;
+      margin: 0 0 0 0;
+      padding: 0 0 0 0;
+
+
+    }
+
+    body {
+      border-width: 10px;
+    }
+
+}
