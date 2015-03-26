@@ -1,3 +1,4 @@
+
 a {
   text-decoration: none;
 
@@ -16,6 +17,7 @@ header {
 
 h1 {
   /*float:left;*/
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   font-size: 5em;
   color: #872657;
   /*raspberry*/
@@ -34,6 +36,7 @@ h1 {
 h2 {
   font-size: 2em;
   float: right;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 #place {
@@ -59,14 +62,14 @@ body {
         inset 3px 3px 10px 7px black;
 }
 
-
-
+p {
+  font-family: arial;
+}
 
 
 nav  li{
   list-style: none;
-  /*display: inline-block;*/
-  /*float: center;*/
+  float: center;
 
 
 }
@@ -87,7 +90,6 @@ nav  li{
 .left, .right {
   width: 40.5%;
 }
-
 .left {
   float: left;
 }
@@ -99,20 +101,12 @@ nav  li{
 
 .page-links ul li {
   width: 10%;
-  /*float: right;*/
-  /*padding: left;*/
-  /*padding: 0 10px;*/
-  margin: 20px;
-  margin-left: 100px;
-  text-align: center;
+  float: right;
+  padding: left;
+  padding: 0 10px;
+  margin: 5px;
 }
 
-/*.blank {
-  height: 100px;
-  width: 45%;
-  margin: 2.5%;
-  background-color: lightsteelblue;
-}*/
 
 #map-canvas {
     width: 500px;
@@ -177,20 +171,19 @@ PAGE: MENU OFFERINGS
 
 
 nav {
-  /*float: right;*/
-  clear: both;
-  width: 100%;
+  float: right;
+  width: 60%;
   margin-top: 10px;
   position: fixed;
   left: 0;
   top: 0;
   background-color: beige;
+  /*background-color: green;*/
 }
 
 div li p {
   margin-top: 1px;
 }
-
 footer {
   clear: both;
 }
@@ -205,22 +198,11 @@ iframe {
   box-shadow: inset 2px 3px 10px 5px black;
 }
 
-/*.social-media {
-  float: left;
-  width: 35%;
-  background-color: red;
-  padding: 15px;
-  margin-bottom: 10px;
-  border-style: solid;
-  border-width: 3px black;
-  border-radius: 10%;
-  box-shadow: inset 2px 3px 10px 5px black;
-}*/
-
 footer li {
   list-style: none;
   width: 100%;
   text-align: right;
+
 }
 
 .contact-info {
@@ -236,13 +218,10 @@ footer li {
         background-color: lightblue;
     }
 
-    p {
-      font-family: arial;
-    }
-
     h1 {
       font-size: 3em;
-      color: #872657;
+      /*color: #872657;*/
+      color: black;
     }
 
     h2{
@@ -273,9 +252,39 @@ footer li {
       margin: 0 0 0 0;
       padding: 0 0 0 0;
 
-
     }
 
     body {
       border-width: 10px;
     }
+
+    footer li{
+      float: center;
+      text-align: center;
+      margin: 0 0 0 0;
+    }
+
+    footer p {
+      float: center;
+      text-align: center;
+      margin: 0 0 0 0;
+    }
+
+    .map {
+        float: center;
+        display: none;
+    }
+
+
+   .left {
+     display: inline-block;
+     float: center;
+   }
+
+   .page-links ul li {
+     width: 98%;
+     padding: left;
+     padding: 0 10px;
+     margin: 5px;
+     text-align: center;
+  }
