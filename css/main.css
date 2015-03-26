@@ -154,6 +154,10 @@ img {
 
 }
 
+.links li {
+  list-style: none;
+}
+
 /*
 PAGE: MENU OFFERINGS
 */
@@ -180,7 +184,7 @@ nav {
   position: fixed;
   left: 0;
   top: 0;
-  background-color: green;
+  background-color: beige;
 }
 
 div li p {
@@ -219,10 +223,12 @@ footer li {
   text-align: right;
 }
 
-/*.contact-info {
+.contact-info {
   float: right;
   width: 30%;
-}*/
+  text-align: right;
+  margin: -20px;
+}
 
 /*JESSICA'S CSS*/
 @media screen and (max-width: 300px) {
@@ -273,5 +279,3 @@ footer li {
     body {
       border-width: 10px;
     }
-
-}

@@ -24,29 +24,29 @@
       <nav>
         <section class="page-links">
          <ul>
-          <li><a href="#Swedish">Swedish</a></li>
-          <li><a href="#Thai">Thai</a></li>
-          <li><a href="#Reflexology">Reflexology</a></li>
-          <li><a href="#Deep Tissue">Deep Tissue</a></li>
-          <li><a href="#Hot Stone">Hot Stone</a></li>
+           <li><a href="#Swedish">Swedish</a></li>
+           <li><a href="#Thai">Thai</a></li>
+           <li><a href="#Reflexology">Reflexology</a></li>
+           <li><a href="#Deep Tissue">Deep Tissue</a></li>
+           <li><a href="#Hot Stone">Hot Stone</a></li>
          </ul>
        </section>
      </nav>
 
     <div id="wrapper">
       <section>
-        <ul id="menu">
+        <!-- <ul id="menu"> -->
           <li class="center">
             <a href="">
               <div id="Hot Stone" class="blank">
-              <img src="images/stone.jpg" class="top"/>
-              <p>Hot stone</p>
-              <p>We offer the hottest of stones to help ease and melt away your aches.</p>
+                <img src="images/stone.jpg" class="top"/>
+                <p>Hot stone</p>
+                <p>We offer the hottest of stones to help ease and melt away your aches.</p>
               </div>
             </a>
           </li>
 
-           <li class="left">
+          <li class="left">
             <a href="">
               <div id="Deep Tissue" class="blank">
                 <img src="images/deep.jpg" class="boundry"/>
@@ -55,6 +55,7 @@
               </div>
             </a>
           </li>
+
           <li class="right">
             <a href="">
               <div id="Thai" class="blank">
@@ -64,13 +65,14 @@
               </div>
             </a>
           </li>
-           <li class="left">
-             <a href="">
-               <div id="Reflexology" class="blank">
-                  <img src="images/reflexology.jpg" class="boundry" />
-                  <p>Reflexology</p>
-                  <p>Our knowledgeable people know the points in which will help you get back to normal.</p>
-                </div>
+
+          <li class="left">
+            <a href="">
+              <div id="Reflexology" class="blank">
+                <img src="images/reflexology.jpg" class="boundry" />
+                <p>Reflexology</p>
+                <p>Our knowledgeable people know the points in which will help you get back to normal.</p>
+              </div>
             </a>
           </li>
 
@@ -80,18 +82,94 @@
                 <img src="images/sweed.jpg" class="boundry" />
                 <p>Swedish</p>
                 <p>Let our loving hands get those knots out.</p>
-            </div>
+              </div>
             </a>
           </li>
-        </ul>
+        <!-- </ul> -->
       </section>
 
      <!-- map -->
      <div class="map">
-      <div id="googleMap" style="width:500px;height:380px;" >
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2795.557581773131!2d-122.59789099999999!3d45.51898399999999!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5495a0fcf71ebf3d%3A0x8322d39ca2483078!2s6405+SE+Scott+Dr%2C+Portland%2C+OR+97215!5e0!3m2!1sen!2sus!4v1427165810404" width="400" height="300" frameborder="0" style="border:0"></iframe class="map">
+       <div id="googleMap" style="width:500px;height:380px;" >
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2795.557581773131!2d-122.59789099999999!3d45.51898399999999!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5495a0fcf71ebf3d%3A0x8322d39ca2483078!2s6405+SE+Scott+Dr%2C+Portland%2C+OR+97215!5e0!3m2!1sen!2sus!4v1427165810404" width="400" height="300" frameborder="0" style="border:0"></iframe class="map">
+       </div>
+     </div>
+
+     <!-- form -->
+     <form name="htmlform" method="post" action="html_form_send.php">
+       <table width="450px">
+      </tr>
+      <tr>
+       <td valign="top">
+        <label for="first_name">First Name *</label>
+       </td>
+       <td valign="top">
+        <input  type="text" name="first_name" maxlength="50" size="30">
+       </td>
+      </tr>
+
+      <tr>
+       <td valign="top">
+        <label for="last_name">Last Name *</label>
+       </td>
+       <td valign="top">
+        <input  type="text" name="last_name" maxlength="50" size="30">
+       </td>
+      </tr>
+      <tr>
+       <td valign="top">
+        <label for="email">Email Address *</label>
+       </td>
+       <td valign="top">
+        <input  type="text" name="email" maxlength="80" size="30">
+       </td>
+
+      </tr>
+      <tr>
+       <td valign="top">
+        <label for="telephone">Telephone Number</label>
+       </td>
+       <td valign="top">
+        <input  type="text" name="telephone" maxlength="30" size="30">
+       </td>
+      </tr>
+      <tr>
+       <td valign="top">
+        <label for="Did you have a positive experience?">Did you have a positive experience?</label>
+       </td>
+       <td valign="top">
+        <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+       </td>
+     </tr>
+     <tr>
+      <td valign="top">
+       <label for="Would you recommend us to a friend?">Would you recommend us to a friend?</label>
+      </td>
+      <td valign="top">
+       <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+      </td>
+    </tr>
+    <tr>
+     <td valign="top">
+      <label for="Do you want me to contact you to set up another appointment?">Do you want me to contact you to set up another appointment?</label>
+     </td>
+     <td valign="top">
+      <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+     </td>
+
+      </tr>
+      <tr>
+       <td colspan="2" style="text-align:center">
+        <input type="submit" value="Submit">
+      </tr>
+      </table>
+      </form>
+
+      <div class="links-page">
+        <ul>
+          <li><a href="links.html"><b>Links</b></a></li>
+        </ul>
       </div>
-    </div>
 
       <footer>
         <section>
@@ -104,8 +182,9 @@
           <!-- Google map, copyright, team name, more social media links? schedule appt. button? -->
           <a href="http://twitter.com"><img src="img/twitter-3-64.png" alt="Twitter Logo"></a>
           <a href="http://facebook.com"><img src="img/facebook-3-64.png" alt="Facebook Logo"></a>
-        <p>&copy; 2015 Tabor Tots</p>
+          <p>&copy; 2015 Tabor Tots</p>
       </footer>
+
     </div>
    </main>
   </body>
